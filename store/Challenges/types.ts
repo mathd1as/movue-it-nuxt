@@ -23,7 +23,7 @@ export interface State {
 }
 
 export interface Cookie {
-	leval: number;
+	level: number;
 	xp: XP;
 	completedChallenges: number;
 }
@@ -35,16 +35,16 @@ export interface Getters {
 }
 
 export enum Mutations {
-	SET_CURRENT_CHALLANGE_INDEX = 'SET_CURRENT_CHALLANGE_INDEX',
+	SET_CURRENT_CHALLENGE_INDEX = 'SET_CURRENT_CHALLENGE_INDEX',
 	SET_IS_LEVEL_UP_MODAL_OPEN = 'SET_IS_LEVEL_UP_MODAL_OPEN',
-	COMPLETE_CHALLANGE = 'COMPLETE_CHALLANGE',
+	COMPLETE_CHALLENGE = 'COMPLETE_CHALLENGE',
 	SAVE_COOKIE_DATA = 'SAVE_COOKIE_DATA'
 }
 
 export type RootState = ReturnType<() => State>
 export interface MutationsInterface extends MutationTree<RootState> {
-	[Mutations.SET_CURRENT_CHALLANGE_INDEX](s: State, p: number): void;
+	[Mutations.SET_CURRENT_CHALLENGE_INDEX](s: State, p: number): void;
 	[Mutations.SET_IS_LEVEL_UP_MODAL_OPEN](s: State, p: boolean): void;
-	[Mutations.COMPLETE_CHALLANGE](s: State, p: number): void;
+	[Mutations.COMPLETE_CHALLENGE](s: State, p: number): void;
 	[Mutations.SAVE_COOKIE_DATA](s: State, p: Cookie): void;
 }

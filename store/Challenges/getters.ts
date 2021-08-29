@@ -8,5 +8,6 @@ export default {
 	},
 	currentChallange: state =>
 	(typeof state.currentChallengeIndex === 'number')
-		? state.allChallenges[state.currentChallengeIndex] : null,
+		? state.allChallenges[state.currentChallengeIndex]
+		: null,
 } as Getters;
