@@ -1,4 +1,4 @@
-import allChallenges from '~/assets/css/challenges/data'
+import allChallenges from '~/assets/challenges/data'
 
 import { State } from './types'
 
