@@ -49,7 +49,7 @@ export default Vue.extend<unknown, any, unknown, ChallengeType>({
 			resetTime: `Countdown/${CountdownMT.RESET_TIME}`,
 			setIsActive: `Countdown/${CountdownMT.SET_IS_ACTIVE}`,
 			setHasCompleted: `Countdown/${CountdownMT.SET_HAS_COMPLETED}`,
-			setCurrentChallengeIndex: `Countdown/${CountdownMT.SET_HAS_COMPLETED}`,
+			setCurrentChallengeIndex: `Challenges/${ChallengesMT.SET_CURRENT_CHALLENGE_INDEX}`,
 			completedChallenge: `Challenges/${ChallengesMT.COMPLETE_CHALLENGE}`,
 		}),
 		resetChallenges () {
