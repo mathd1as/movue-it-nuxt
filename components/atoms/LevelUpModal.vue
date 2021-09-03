@@ -7,7 +7,7 @@
 		>
 			<div class="bg-white w-full max-wmd p-10 rounded-md shadow text-center relative" @click.stop>
 				<header class="text-9xl font-semibold text-blue bg-contain">
-					1
+					{{ Level }}
 				</header>
 				<strong class="text-2xl text-text mt-1">
 					Congratulations!
