@@ -93,3 +93,5 @@ coverage
 
 .vercel
 
+./node_modules
+
