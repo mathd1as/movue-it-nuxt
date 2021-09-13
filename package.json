@@ -10,8 +10,7 @@
 		"lint": "eslint --ext \".ts,.js,.vue\" --ignore-path .gitignore .",
 		"test": "jest",
 		"test:watch": "jest --watchAll",
-		"test:covarage": "jest --collectCoverage",
-		"heroku-postbuild": "nuxt build"
+		"test:covarage": "jest --collectCoverage"
 	},
 	"dependencies": {
 		"@types/jest": "^27.0.1",
